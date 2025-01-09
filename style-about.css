@@ -35,7 +35,7 @@ body{
 }
 
 #about button{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: var(--white);
     background-color: var(--blue);
     border-radius: 3px;
@@ -44,6 +44,9 @@ body{
     margin: 1em;
 }
 
+#about .para{
+    font-size: 1.2rem;
+}
 
 #about button:hover{
     background-color: var(--white);
