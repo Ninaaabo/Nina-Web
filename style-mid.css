@@ -20,8 +20,15 @@ body{
     top: 0px;
     margin: 0;
     padding: 0;
+}
 
-
+.mid .a-gif{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
 
 .mid .a-box{
