@@ -1,0 +1,166 @@
+/* 
+blue: #091057
+white: #FFF6E9
+*/
+body{
+    font-family: "Montserrat", serif;
+    --blue: #091057;
+    --white: #FFF6E9;
+    background-color: var(--white);
+    overflow-x: hidden;
+}
+
+#title .navbar{
+    z-index: 2;
+}
+#title{
+    position: relative;
+    overflow: hidden;
+    background-color: var(--white);
+    height: 100vh;
+
+}
+
+#title .bg-body-tertiary{
+    background-color: transparent !important;
+    padding: 20px 0;
+}
+
+#title .navbar-brand{
+    background-color: var(--blue);
+    width: 2rem;
+    height: 2rem;
+}
+
+#title .nav-link{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: var(--blue) !important;
+    opacity: 0.8;
+}
+
+#title .navbar-collapse .nav-link{
+    font-size: 1rem;
+}
+
+#title .active{
+    opacity: 1;
+    
+}
+
+#title .navbar-collapse{
+    margin-top: 10px;
+}
+
+ #title button:focus{
+
+    box-shadow: none;
+}
+#title .container-fluid{
+    padding: 0 6% ;
+}
+
+#title .navbar-toggler{
+    border-color: var(--blue);
+    width: 2rem;
+    height: 1.5rem;
+    border-color: var(--blue);
+}
+
+#title button:hover{
+    background-color: var(--blue);
+}
+
+svg:hover{
+    fill: var(--white);
+}
+
+svg:active{
+    fill: grey;
+}
+
+#title .hello{
+    font-size: 3vw;
+    font-size:calc(22px + 2vw);
+
+    font-weight: bolder;
+    color: var(--white);
+    background-color: var(--blue);
+    width: max-content;
+    margin: 1% 0px 5% 12%;
+    height: 1.3em;
+    padding: 0px 0.8rem;   
+    z-index: 2;
+}
+
+#title .iam{
+    font-size: 6vw;
+    font-size:calc(30px + 4vw);
+    font-weight: bolder;
+    color: var(--white);
+    background-color: var(--blue);
+    width: max-content;
+    padding: 0px 0.8rem;
+    margin: 20px 0px 0px 12%;
+    height: 1.3em;
+    z-index: 2;
+}
+
+#title .nina{
+    font-size: 9vw;
+    font-size:calc(40px + 6vw);
+    font-weight: 800;
+    color: var(--blue);
+    background-color: var(--white);
+    width: max-content;
+    margin: 20px 0px 0px 12%;
+    padding: 0px 0.8rem;
+    z-index: 1;
+    border: 3px solid var(--blue);
+}
+
+#title .container-grid{
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(./final-imgs/hair-blowing-1.png); */
+    background-size: 140vw;
+    background-position: 35% bottom;
+    background-repeat: no-repeat;
+}
+
+#title .ani{
+    position: absolute;
+    bottom:0px;
+    left: -10%;
+}
+
+#title .ani-img{
+    width: 140vw;
+    object-fit: contain;
+
+}
+
+@media (max-width: 480px) and (min-height:6px) {
+    #title .ani{
+        position: absolute;
+        bottom:0px;
+        left: -50%;
+    }
+    
+    #title .ani-img{
+        width: 200vw;
+        object-fit: contain;
+    
+    }
+
+    #title .container-grid > *{
+        margin-left: 6%;
+    }
+
+    
+} 
+
+.divider{
+    height: 2vh;
+}
+
