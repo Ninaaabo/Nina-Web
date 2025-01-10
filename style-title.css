@@ -27,9 +27,27 @@ body{
 }
 
 #title .navbar-brand{
+    position: static;
     background-color: var(--blue);
     width: 2rem;
     height: 2rem;
+    z-index: 3;
+}
+
+.dropdown-menu{
+    --bs-dropdown-bg:transparent;
+    --bs-dropdown-border-color:transparent;
+    z-index: 4;
+    padding: 0;
+}
+
+.dropdown-item{
+    color: red !important;
+    background-color: var(--white)   ;
+}
+
+#title .dropdown-item:hover{
+    color: green !important
 }
 
 #title .nav-link{
