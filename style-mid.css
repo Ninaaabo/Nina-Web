@@ -42,6 +42,9 @@ body{
     padding-bottom: 0;
 }
 
+.mid .a-box.programmer{
+    padding-top: 38vh;
+}
 .mid .tit{
     color: var(--white);
     font-size: 2rem;
