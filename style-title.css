@@ -5,7 +5,7 @@ white: #FFF6E9
 body{
     font-family: "Montserrat", serif;
     --blue: #091057;
-    --white: #FFF6E9;
+    --white: #fbdfdc;
     background-color: var(--white);
     overflow-x: hidden;
 }
@@ -156,11 +156,12 @@ svg:active{
     width: 110vw;
     object-fit: contain;
     position:relative;
-    left: 100px;
+    right: -60px;
+    bottom: -40px;
 
 }
 
-@media (max-width: 480px) and (min-height:6px) {
+@media (max-width: 560px) and (min-height:6px) {
     #title .ani{
         position: absolute;
         bottom:0px;
@@ -170,7 +171,7 @@ svg:active{
     #title .ani-img{
         width: 200vw;
         object-fit: contain;
-    
+        right: 60px;
     }
 
     #title .container-grid > *{

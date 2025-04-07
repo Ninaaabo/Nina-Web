@@ -1,7 +1,7 @@
 body{
     font-family: "Montserrat", serif;
     --blue: #091057;
-    --white: #FFF6E9;
+    --white: #fbdfdc;
     background-color: var(--white);
     overflow-x: hidden;
     height: fit-content;
