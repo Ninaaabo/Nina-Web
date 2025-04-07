@@ -153,8 +153,10 @@ svg:active{
 }
 
 #title .ani-img{
-    width: 140vw;
+    width: 110vw;
     object-fit: contain;
+    position:relative;
+    left: 100px;
 
 }
 
